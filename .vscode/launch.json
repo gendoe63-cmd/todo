@@ -1,0 +1,11 @@
+   {
+     "version": "0.2.0",
+     "configurations": [
+       {
+         "type": "chrome",
+         "request": "launch",
+         "name": "Debug to-do app",
+         "file": "${workspaceFolder}/index.html"
+       }
+     ]
+   }
