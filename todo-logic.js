@@ -6,8 +6,8 @@ function addTask(tasks, text) {
 }
 
 function completeTask(tasks, id) {
-  return tasks.map((task, index) =>
-    index === id ? { ...task, done: true } : task
+  return tasks.map(task =>
+    task.id === id ? { ...task, done: true } : task
   );
 }
 
