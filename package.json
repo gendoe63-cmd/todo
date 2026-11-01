@@ -1,0 +1,9 @@
+{
+  "name": "tiny-todo-bug-hunt",
+  "version": "1.0.0",
+  "description": "Practice repo: find and fix bugs in a tiny to-do app",
+  "scripts": {
+    "test": "node --test test/todo.test.js"
+  },
+  "license": "MIT"
+}

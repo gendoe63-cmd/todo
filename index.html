@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tiny To-Do</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Tiny To-Do</h1>
+
+    <div class="add-row">
+      <input id="task-input" type="text" placeholder="What needs doing?" autocomplete="off">
+      <button id="add-btn" class="btn btn-primary">Add task</button>
+    </div>
+
+    <ul id="task-list" class="task-list"></ul>
+
+    <p id="remaining" class="remaining"></p>
+  </main>
+
+  <script src="todo-logic.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
